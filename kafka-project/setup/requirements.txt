@@ -1,0 +1,5 @@
+kafka-python==2.0.2
+faker==20.1.0
+pandas==2.1.0
+dash==2.14.0
+plotly==5.17.0

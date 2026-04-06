@@ -1,0 +1,50 @@
+2026-04-04 20:17:11,295 - INFO - package: mysql.connector.plugins
+2026-04-04 20:17:11,296 - INFO - plugin_name: caching_sha2_password
+2026-04-04 20:17:11,300 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-04-04 20:17:11,367 - ERROR - MySQL connection failed: 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+2026-04-04 20:17:11,368 - INFO - Troubleshooting:
+2026-04-04 20:17:11,371 - INFO - 1. Is MySQL installed?
+2026-04-04 20:17:11,372 - INFO - 2. Is MySQL service running?
+2026-04-04 20:17:11,373 - INFO - 3. Is password correct?
+2026-04-04 20:27:57,806 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=127.0.0.1:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to 127.0.0.1:9092 [('127.0.0.1', 9092) IPv4]
+2026-04-04 20:27:57,811 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=127.0.0.1:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]>: Broker version identified as 2.6
+2026-04-04 20:27:57,811 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=127.0.0.1:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2026-04-04 20:27:57,812 - INFO - Updating subscribed topics to: ('streaming-events',)
+2026-04-04 20:27:57,813 - INFO - Starting MySQL Storage Consumer...
+2026-04-04 20:27:58,136 - INFO - package: mysql.connector.plugins
+2026-04-04 20:27:58,136 - INFO - plugin_name: caching_sha2_password
+2026-04-04 20:27:58,137 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-04-04 20:27:58,152 - ERROR - MySQL connection failed: 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+2026-04-04 20:27:58,153 - INFO - Troubleshooting:
+2026-04-04 20:27:58,153 - INFO - 1. Is MySQL installed?
+2026-04-04 20:27:58,153 - INFO - 2. Is MySQL service running?
+2026-04-04 20:27:58,153 - INFO - 3. Is password correct?
+2026-04-04 20:27:58,157 - ERROR - Cannot start consumer without database connection
+2026-04-04 20:52:07,278 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=127.0.0.1:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to 127.0.0.1:9092 [('127.0.0.1', 9092) IPv4]
+2026-04-04 20:52:07,289 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=127.0.0.1:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]>: Broker version identified as 2.6
+2026-04-04 20:52:07,290 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=127.0.0.1:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2026-04-04 20:52:07,292 - INFO - Updating subscribed topics to: ('streaming-events',)
+2026-04-04 20:52:07,292 - INFO - Starting MySQL Storage Consumer...
+2026-04-04 20:52:07,658 - INFO - package: mysql.connector.plugins
+2026-04-04 20:52:07,659 - INFO - plugin_name: caching_sha2_password
+2026-04-04 20:52:07,659 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-04-04 20:52:07,695 - ERROR - MySQL connection failed: 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+2026-04-04 20:52:07,696 - INFO - Troubleshooting:
+2026-04-04 20:52:07,696 - INFO - 1. Is MySQL installed?
+2026-04-04 20:52:07,697 - INFO - 2. Is MySQL service running?
+2026-04-04 20:52:07,697 - INFO - 3. Is password correct?
+2026-04-04 20:52:07,700 - ERROR - Cannot start consumer without database connection
+2026-04-04 21:30:01,815 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=127.0.0.1:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to 127.0.0.1:9092 [('127.0.0.1', 9092) IPv4]
+2026-04-04 21:30:01,825 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=127.0.0.1:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]>: Broker version identified as 2.6
+2026-04-04 21:30:01,826 - INFO - <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=127.0.0.1:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2026-04-04 21:30:01,827 - INFO - Updating subscribed topics to: ('streaming-events',)
+2026-04-04 21:30:01,828 - INFO - Starting MySQL Storage Consumer...
+2026-04-04 21:30:02,310 - INFO - package: mysql.connector.plugins
+2026-04-04 21:30:02,311 - INFO - plugin_name: caching_sha2_password
+2026-04-04 21:30:02,312 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-04-04 21:30:02,390 - ERROR - MySQL connection failed: 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+2026-04-04 21:30:02,390 - INFO - Troubleshooting:
+2026-04-04 21:30:02,391 - INFO - 1. Is MySQL installed?
+2026-04-04 21:30:02,391 - INFO - 2. Is MySQL service running?
+2026-04-04 21:30:02,391 - INFO - 3. Is password correct?
+2026-04-04 21:30:02,398 - ERROR - Cannot start consumer without database connection

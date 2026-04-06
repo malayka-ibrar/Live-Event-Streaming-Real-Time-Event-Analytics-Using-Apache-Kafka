@@ -1,0 +1,25 @@
+{
+  "total_events": 1120,
+  "events_by_type": {
+    "page_view": 226,
+    "signup": 212,
+    "purchase": 228,
+    "add_to_cart": 228,
+    "click": 226
+  },
+  "events_by_device": {
+    "mobile": 386,
+    "tablet": 341,
+    "desktop": 393
+  },
+  "events_by_country": {
+    "Germany": 236,
+    "Canada": 238,
+    "USA": 209,
+    "UK": 233,
+    "France": 204
+  },
+  "unique_users": 673,
+  "events_per_minute": [],
+  "runtime_seconds": 620
+}

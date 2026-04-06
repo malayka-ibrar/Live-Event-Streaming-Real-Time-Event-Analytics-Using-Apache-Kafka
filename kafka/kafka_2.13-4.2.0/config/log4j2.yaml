@@ -1,0 +1,41 @@
+Configuration:
+  Appenders:
+    Console:
+      name: Console
+      target: SYSTEM_OUT
+      PatternLayout:
+        pattern: "[%d] %p %m (%c)%n"
+
+    RollingFile:
+      name: RollingFile
+      fileName: D:/kafka/logs/kafka.log
+      filePattern: D:/kafka/logs/kafka.log.%d{yyyy-MM-dd-HH}.gz
+      PatternLayout:
+        pattern: "[%d] %p %m (%c)%n"
+      Policies:
+        TimeBasedTriggeringPolicy:
+          interval: 1
+          modulate: true
+
+  Loggers:
+    Root:
+      level: INFO
+      AppenderRef:
+        - ref: Console
+        - ref: RollingFile
+
+    Logger:
+      - name: kafka
+        level: INFO
+      - name: org.apache.kafka
+        level: INFO
+      - name: kafka.request.logger
+        level: WARN
+        additivity: false
+        AppenderRef:
+          ref: RollingFile
+      - name: state.change.logger
+        level: INFO
+        additivity: false
+        AppenderRef:
+          ref: RollingFile

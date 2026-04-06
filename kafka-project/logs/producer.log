@@ -1,0 +1,165 @@
+2026-04-04 15:41:02,720 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-04 16:02:37,213 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-04 16:12:11,415 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to 127.0.0.1:9092 [('127.0.0.1', 9092) IPv4]
+2026-04-04 16:12:11,425 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]>: Broker version identified as 2.6
+2026-04-04 16:12:11,426 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2026-04-04 16:12:11,428 - INFO - Starting event streaming...
+2026-04-04 16:12:11,428 - INFO - Topic: streaming-events
+2026-04-04 16:12:11,429 - INFO - Bootstrap servers: 127.0.0.1:9092
+2026-04-04 16:12:11,610 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-04 16:12:42,105 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection attempt timed out
+2026-04-04 16:12:42,106 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: timeout
+2026-04-04 16:12:42,108 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2026-04-04 16:12:42,109 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2026-04-04 16:12:42,110 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2026-04-04 16:12:42,163 - ERROR - Topic streaming-events not found in cluster metadata
+2026-04-04 16:12:53,210 - INFO - Sent 100 events so far
+2026-04-04 16:13:03,893 - INFO - Sent 200 events so far
+2026-04-04 16:13:11,522 - INFO - Reached duration of 60 seconds
+2026-04-04 16:13:11,523 - INFO - <KafkaProducer client_id=kafka-python-producer-1 transactional_id=None>: Closing the Kafka producer with 4294967.0 secs timeout.
+2026-04-04 16:13:11,524 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2026-04-04 16:13:11,526 - INFO - Total events sent: 271
+2026-04-04 16:28:39,460 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to 127.0.0.1:9092 [('127.0.0.1', 9092) IPv4]
+2026-04-04 16:28:39,465 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]>: Broker version identified as 2.6
+2026-04-04 16:28:39,465 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2026-04-04 16:28:39,467 - INFO - Starting event streaming...
+2026-04-04 16:28:39,467 - INFO - Topic: streaming-events
+2026-04-04 16:28:39,468 - INFO - Bootstrap servers: 127.0.0.1:9092
+2026-04-04 16:28:39,580 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-04 16:29:10,108 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection attempt timed out
+2026-04-04 16:29:10,109 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: timeout
+2026-04-04 16:29:10,110 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2026-04-04 16:29:10,111 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2026-04-04 16:29:10,111 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2026-04-04 16:29:20,552 - INFO - Sent 100 events so far
+2026-04-04 16:29:31,084 - INFO - Sent 200 events so far
+2026-04-04 16:29:39,488 - INFO - Reached duration of 60 seconds
+2026-04-04 16:29:39,489 - INFO - <KafkaProducer client_id=kafka-python-producer-1 transactional_id=None>: Closing the Kafka producer with 4294967.0 secs timeout.
+2026-04-04 16:29:39,494 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2026-04-04 16:29:39,495 - INFO - Total events sent: 279
+2026-04-04 20:26:34,793 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to 127.0.0.1:9092 [('127.0.0.1', 9092) IPv4]
+2026-04-04 20:26:34,810 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]>: Broker version identified as 2.6
+2026-04-04 20:26:34,811 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2026-04-04 20:26:34,814 - INFO - Starting event streaming...
+2026-04-04 20:26:34,815 - INFO - Topic: streaming-events
+2026-04-04 20:26:34,816 - INFO - Bootstrap servers: 127.0.0.1:9092
+2026-04-04 20:26:34,937 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-04 20:27:05,345 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection attempt timed out
+2026-04-04 20:27:05,355 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: timeout
+2026-04-04 20:27:05,360 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2026-04-04 20:27:05,365 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2026-04-04 20:27:05,368 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2026-04-04 20:27:16,028 - INFO - Sent 100 events so far
+2026-04-04 20:27:26,645 - INFO - Sent 200 events so far
+2026-04-04 20:27:34,917 - INFO - Reached duration of 60 seconds
+2026-04-04 20:27:34,917 - INFO - <KafkaProducer client_id=kafka-python-producer-1 transactional_id=None>: Closing the Kafka producer with 4294967.0 secs timeout.
+2026-04-04 20:27:34,920 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2026-04-04 20:27:34,921 - INFO - Total events sent: 277
+2026-04-04 20:29:44,467 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to 127.0.0.1:9092 [('127.0.0.1', 9092) IPv4]
+2026-04-04 20:29:44,471 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]>: Broker version identified as 2.6
+2026-04-04 20:29:44,471 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2026-04-04 20:29:44,473 - INFO - Starting event streaming...
+2026-04-04 20:29:44,474 - INFO - Topic: streaming-events
+2026-04-04 20:29:44,475 - INFO - Bootstrap servers: 127.0.0.1:9092
+2026-04-04 20:29:44,583 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-04 20:30:15,125 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection attempt timed out
+2026-04-04 20:30:15,126 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: timeout
+2026-04-04 20:30:15,132 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2026-04-04 20:30:15,133 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2026-04-04 20:30:15,134 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2026-04-04 20:30:25,651 - INFO - Sent 100 events so far
+2026-04-04 20:30:36,227 - INFO - Sent 200 events so far
+2026-04-04 20:30:44,579 - INFO - Reached duration of 60 seconds
+2026-04-04 20:30:44,580 - INFO - <KafkaProducer client_id=kafka-python-producer-1 transactional_id=None>: Closing the Kafka producer with 4294967.0 secs timeout.
+2026-04-04 20:30:44,585 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2026-04-04 20:30:44,586 - INFO - Total events sent: 278
+2026-04-04 20:51:23,665 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to 127.0.0.1:9092 [('127.0.0.1', 9092) IPv4]
+2026-04-04 20:51:23,686 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]>: Broker version identified as 2.6
+2026-04-04 20:51:23,687 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2026-04-04 20:51:23,688 - INFO - Starting event streaming...
+2026-04-04 20:51:23,689 - INFO - Topic: streaming-events
+2026-04-04 20:51:23,689 - INFO - Bootstrap servers: 127.0.0.1:9092
+2026-04-04 20:51:23,799 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-04 20:51:54,332 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection attempt timed out
+2026-04-04 20:51:54,333 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: timeout
+2026-04-04 20:51:54,335 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2026-04-04 20:51:54,336 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2026-04-04 20:51:54,337 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2026-04-04 20:52:05,004 - INFO - Sent 100 events so far
+2026-04-04 20:52:15,641 - INFO - Sent 200 events so far
+2026-04-04 20:52:23,784 - INFO - Reached duration of 60 seconds
+2026-04-04 20:52:23,784 - INFO - <KafkaProducer client_id=kafka-python-producer-1 transactional_id=None>: Closing the Kafka producer with 4294967.0 secs timeout.
+2026-04-04 20:52:23,786 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2026-04-04 20:52:23,787 - INFO - Total events sent: 276
+2026-04-04 21:29:42,467 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to 127.0.0.1:9092 [('127.0.0.1', 9092) IPv4]
+2026-04-04 21:29:42,538 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]>: Broker version identified as 2.6
+2026-04-04 21:29:42,539 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2026-04-04 21:29:42,540 - INFO - Starting event streaming...
+2026-04-04 21:29:42,541 - INFO - Topic: streaming-events
+2026-04-04 21:29:42,541 - INFO - Bootstrap servers: 127.0.0.1:9092
+2026-04-04 21:29:42,654 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-04 21:30:13,169 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection attempt timed out
+2026-04-04 21:30:13,170 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: timeout
+2026-04-04 21:30:13,177 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2026-04-04 21:30:13,179 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2026-04-04 21:30:13,180 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2026-04-04 21:30:23,723 - INFO - Sent 100 events so far
+2026-04-04 21:30:34,174 - INFO - Sent 200 events so far
+2026-04-04 21:30:42,602 - INFO - Reached duration of 60 seconds
+2026-04-04 21:30:42,602 - INFO - <KafkaProducer client_id=kafka-python-producer-1 transactional_id=None>: Closing the Kafka producer with 4294967.0 secs timeout.
+2026-04-04 21:30:42,603 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2026-04-04 21:30:42,604 - INFO - Total events sent: 280
+2026-04-04 22:02:42,669 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to 127.0.0.1:9092 [('127.0.0.1', 9092) IPv4]
+2026-04-04 22:02:42,676 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]>: Broker version identified as 2.6
+2026-04-04 22:02:42,677 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2026-04-04 22:02:42,680 - INFO - Starting event streaming...
+2026-04-04 22:02:42,680 - INFO - Topic: streaming-events
+2026-04-04 22:02:42,681 - INFO - Bootstrap servers: 127.0.0.1:9092
+2026-04-04 22:02:42,807 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-04 22:03:13,255 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection attempt timed out
+2026-04-04 22:03:13,256 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: timeout
+2026-04-04 22:03:13,258 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2026-04-04 22:03:13,259 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2026-04-04 22:03:13,260 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2026-04-04 22:03:23,678 - INFO - Sent 100 events so far
+2026-04-04 22:03:34,158 - INFO - Sent 200 events so far
+2026-04-04 22:03:42,698 - INFO - Reached duration of 60 seconds
+2026-04-04 22:03:42,699 - INFO - <KafkaProducer client_id=kafka-python-producer-1 transactional_id=None>: Closing the Kafka producer with 4294967.0 secs timeout.
+2026-04-04 22:03:42,702 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2026-04-04 22:03:42,704 - INFO - Total events sent: 280
+2026-04-04 22:06:31,065 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to 127.0.0.1:9092 [('127.0.0.1', 9092) IPv4]
+2026-04-04 22:06:31,071 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]>: Broker version identified as 2.6
+2026-04-04 22:06:31,071 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2026-04-04 22:06:31,073 - INFO - Starting event streaming...
+2026-04-04 22:06:31,073 - INFO - Topic: streaming-events
+2026-04-04 22:06:31,074 - INFO - Bootstrap servers: 127.0.0.1:9092
+2026-04-04 22:06:31,186 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-04 22:07:01,715 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection attempt timed out
+2026-04-04 22:07:01,716 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: timeout
+2026-04-04 22:07:01,717 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2026-04-04 22:07:01,718 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2026-04-04 22:07:01,718 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2026-04-04 22:07:12,147 - INFO - Sent 100 events so far
+2026-04-04 22:07:22,652 - INFO - Sent 200 events so far
+2026-04-04 22:07:31,151 - INFO - Reached duration of 60 seconds
+2026-04-04 22:07:31,152 - INFO - <KafkaProducer client_id=kafka-python-producer-1 transactional_id=None>: Closing the Kafka producer with 4294967.0 secs timeout.
+2026-04-04 22:07:31,155 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2026-04-04 22:07:31,157 - INFO - Total events sent: 280
+2026-04-04 22:08:48,756 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to 127.0.0.1:9092 [('127.0.0.1', 9092) IPv4]
+2026-04-04 22:08:48,759 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]>: Broker version identified as 2.6
+2026-04-04 22:08:48,760 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2026-04-04 22:08:48,761 - INFO - Starting event streaming...
+2026-04-04 22:08:48,762 - INFO - Topic: streaming-events
+2026-04-04 22:08:48,762 - INFO - Bootstrap servers: 127.0.0.1:9092
+2026-04-04 22:08:48,875 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-04-04 22:09:19,475 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection attempt timed out
+2026-04-04 22:09:19,476 - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. KafkaConnectionError: timeout
+2026-04-04 22:09:19,478 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2026-04-04 22:09:19,479 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2026-04-04 22:09:19,480 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=127.0.0.1:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2026-04-04 22:09:29,879 - INFO - Sent 100 events so far
+2026-04-04 22:09:40,358 - INFO - Sent 200 events so far
+2026-04-04 22:09:48,842 - INFO - Reached duration of 60 seconds
+2026-04-04 22:09:48,843 - INFO - <KafkaProducer client_id=kafka-python-producer-1 transactional_id=None>: Closing the Kafka producer with 4294967.0 secs timeout.
+2026-04-04 22:09:48,844 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2026-04-04 22:09:48,845 - INFO - Total events sent: 280
