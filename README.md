@@ -143,14 +143,6 @@ streamlit run dashboard_simple.py
 
 ---
 
-## 👥 Team Members
-
-| Name | ID |
-|------|-----|
-| Areeba Yasir | 016 |
-| Javeria Rahim | 046 |
-| Malayka Ibrar | 058 |
-| Ibtisam | 042 |
 
 ---
 
